@@ -20,12 +20,7 @@ def init_faq_tab(main_window):
     <p>A: Yes, use the 'General Settings' tab to adjust key configurations, delays, and teammate attack settings.</p>
     <p><b>Q: Does the TriggerBot work on <span style="color:#BB86FC;">FACEIT</span>?</b></p>
     <p>A: No, using the TriggerBot on FACEIT is against their terms of service and can result in a ban.</p>
-    <p><b>Q: I found a bug, where can I report it?</b></p>
-    <p>A: Report bugs by opening an issue on our <a style="color: #BB86FC;" href="https://github.com/Jesewe/cs2-triggerbot/issues">GitHub Issues page</a>.</p>
-    <p><b>Q: How can I contribute to the project?</b></p>
-    <p>A: Open a pull request on our <a style="color: #BB86FC;" href="https://github.com/Jesewe/cs2-triggerbot/pulls">GitHub Pull Requests page</a>.</p>
-    <p><b>Q: Where can I join the community?</b></p>
-    <p>A: Join our <a style="color: #BB86FC;" href="https://t.me/cs2_jesewe">Telegram Channel</a> for updates and support.</p>
+
     """
     faqs_widget = QTextEdit()
     faqs_widget.setHtml(faqs_content)
