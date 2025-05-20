@@ -3,10 +3,6 @@
    <h1>CS2 TriggerBot</h1>
    <p>Your ultimate aiming assistant for Counter-Strike 2</p>
 
-![Downloads](https://img.shields.io/github/downloads/jesewe/cs2-triggerbot/total?style=for-the-badge&logo=github&color=D5006D)
-![Platforms](https://img.shields.io/badge/platform-Windows-blue?style=for-the-badge&logo=windows&color=D5006D)
-![License](https://img.shields.io/github/license/jesewe/cs2-triggerbot?style=for-the-badge&color=D5006D)
-
 <a href="#features"><strong>Features</strong></a> •
 <a href="#installation"><strong>Installation</strong></a> •
 <a href="#usage"><strong>Usage</strong></a> •
@@ -30,7 +26,7 @@ CS2 TriggerBot is an automated tool designed for Counter-Strike 2 that assists w
 - **Toggle Mode**: Enable this mode to keep the bot active after pressing the trigger key once, without holding it.
 - **Attack Teammates Option**: Toggle friendly fire with a checkbox in the GUI.
 - **Offsets and Client Data**: Automatically fetches the latest offsets and client data from remote sources.
-- **Logging**: Detailed logs are saved in `%LOCALAPPDATA%\Requests\ItsJesewe\crashes\tb_logs.log`.
+- **Logging**: Detailed logs are saved in `%LOCALAPPDATA%\Requests\ItsS8B4\crashes\tb_logs.log`.
 - **Update Checker**: Automatically checks for updates from the GitHub repository.
 - **GUI Interface**: Control the bot's behavior and configuration using the included graphical interface.
 - **Dynamic Config Update**: Automatically detects and applies changes to the `config.json` file without restarting the bot.
@@ -46,7 +42,7 @@ You can install the trigger bot by cloning the repository or by downloading a pr
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/Jesewe/cs2-triggerbot.git
+   git clone https://github.com/elmaliturtam294/cs2-triggerbot.git
    cd cs2-triggerbot
    ```
 
@@ -63,13 +59,13 @@ You can install the trigger bot by cloning the repository or by downloading a pr
 
 ### Option 2: Download Pre-Built Executable
 
-Alternatively, download the ready-to-use executable from the [Releases](https://github.com/jesewe/cs2-triggerbot/releases) page. Download the latest version and run the executable directly.
+
 
 **Note:** This project requires Python version >= 3.8 and < 3.12.5.
 
 ## Configuration
 
-The `config.json` file is automatically generated in the directory `%LOCALAPPDATA%\Requests\ItsJesewe\` on the first run. You can modify the `TriggerKey` in this file or via the GUI.
+The `config.json` file is automatically generated in the directory `%LOCALAPPDATA%\Requests\ItsS8B4\` on the first run. You can modify the `TriggerKey` in this file or via the GUI.
 
 Example `config.json`:
 
@@ -108,8 +104,6 @@ Example `config.json`:
 - **Issues with Importing Settings:** Ensure the imported config.json file is valid and matches the expected format.
 
 ## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request on the [GitHub repository](https://github.com/Jesewe/cs2-triggerbot).
 
 ## Disclaimer
 
