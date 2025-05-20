@@ -61,47 +61,6 @@ class Utility:
             logger.exception(f"An unexpected error occurred: {e}")
             return None, None
 
-    @staticmethod
-    def check_for_updates(current_version):
-        """
-        Checks GitHub for the latest version using orjson for JSON parsing.
-        """
-        try:
-            response = requests.get("https://api.github.com/repos/Jesewe/cs2-triggerbot/releases/latest")
-            response.raise_for_status()
-            data = orjson.loads(response.content)
-            latest_version = data.get("tag_name")
-            update_url = data.get("html_url")
-            if version.parse(latest_version) > version.parse(current_version):
-                logger.info(f"New version available: {latest_version}.")
-                return update_url
-            logger.info("No new updates available.")
-            return None
-        except requests.exceptions.RequestException as e:
-            logger.error(f"Update check failed: {e}")
-            return None
-        except Exception as e:
-            logger.error(f"An unexpected error occurred during update check: {e}")
-            return None
-
-    @staticmethod
-    def get_latest_exe_download_url():
-        """
-        Retrieves the direct download URL for the 'CS2.Triggerbot.exe' asset
-        from the latest GitHub release, parsing JSON with orjson.
-        """
-        try:
-            response = requests.get("https://api.github.com/repos/Jesewe/cs2-triggerbot/releases/latest")
-            response.raise_for_status()
-            data = orjson.loads(response.content)
-            for asset in data.get("assets", []):
-                if asset.get("name") == "CS2.Triggerbot.exe":
-                    return asset.get("browser_download_url")
-            logger.error("Executable asset not found in the latest release.")
-            return None
-        except Exception as e:
-            logger.error(f"Error getting update asset URL: {e}")
-            return None
 
     @staticmethod
     def fetch_last_offset_update(last_update_label):
