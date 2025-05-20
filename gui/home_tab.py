@@ -38,9 +38,9 @@ def init_home_tab(main_window):
     layout.addWidget(create_section_label("Additional Information", 18))
     additional_info_text = QLabel(
         "For more details, visit our "
-        "<a href=\"https://github.com/Jesewe/cs2-triggerbot\" style=\"color: #D5006D; text-decoration: underline;\">GitHub repository</a> "
+        "<a href=\"https://www.youtube.com/watch?v=xvFZjo5PgG0" style=\"color: #D5006D; text-decoration: underline;\">GitHub repository</a> "
         "or join our "
-        "<a href=\"https://t.me/cs2_jesewe\" style=\"color: #D5006D; text-decoration: underline;\">Telegram channel</a>."
+        "<a href=\"https://www.youtube.com/watch?v=xvFZjo5PgG0"color: #D5006D; text-decoration: underline;\">Telegram channel</a>."
     )
     additional_info_text.setStyleSheet("font-size: 14px;")
     additional_info_text.setTextFormat(Qt.TextFormat.RichText)
