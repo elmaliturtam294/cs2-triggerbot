@@ -3,7 +3,7 @@ name: Feature Request
 about: Suggest a new feature for the project.
 title: "[Feature]: "
 labels: "\U0001F680 Enhancement"
-assignees: Jesewe
+assignees: S8B4
 
 ---
 
@@ -19,6 +19,3 @@ assignees: Jesewe
 ### Additional Details
 *Include any extra information that might help clarify your request, such as screenshots, diagrams, or mockups.*
 
-### Checklist
-- [ ] This feature is not already implemented or planned (please search existing issues).
-- [ ] I have reviewed the [contributing guidelines](https://github.com/Jesewe/cs2-triggerbot/blob/main/CONTRIBUTING.md) for feature requests.
