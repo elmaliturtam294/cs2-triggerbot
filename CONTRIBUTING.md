@@ -22,12 +22,12 @@ By participating in this project, you agree to abide by the project's [Code of C
 1. **Fork the Repository**: Create a personal fork of the repository on GitHub.
 2. **Clone Your Fork**: Clone your fork to your local development environment.
    ```bash
-   git clone https://github.com/Jesewe/cs2-triggerbot.git
+   git clone https://github.com/elmaliturtam294/cs2-triggerbot.git
    cd cs2-triggerbot
    ```
 3. **Set Up a Remote**: Add the original repository as an upstream remote to stay updated with the latest changes.
    ```bash
-   git remote add upstream https://github.com/Jesewe/cs2-triggerbot.git
+   git remote add upstream https://github.com/elmaliturtam294/cs2-triggerbot.git
    ```
 
 ## Development Setup
@@ -44,7 +44,7 @@ By participating in this project, you agree to abide by the project's [Code of C
 
 ### Testing Changes
 - Run the application to ensure any changes you make are functioning as expected.
-- Check logs in `%LOCALAPPDATA%\Requests\ItsJesewe\crashes\tb_logs.log` for debugging information.
+- Check logs in `%LOCALAPPDATA%\Requests\ItsS8B4\crashes\tb_logs.log` for debugging information.
 
 ## Coding Standards
 
@@ -97,7 +97,5 @@ Before opening a new issue, please:
 - **Changes Requested**: You may be asked to make changes before the pull request can be merged. Please address feedback promptly.
 
 ## Feature Requests and Feedback
-
-If you have ideas for new features or improvements, please open an issue with the **Feature Request** label in the [Issue](https://github.com/Jesewe/cs2-triggerbot/issues) tab.
 
 Thank you for contributing to CS2 TriggerBot and helping make this project better!
