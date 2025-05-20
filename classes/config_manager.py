@@ -13,7 +13,7 @@ class ConfigManager:
     with caching for efficiency and default configuration management.
     """
     # Directory where the configuration file is stored
-    CONFIG_DIRECTORY = os.path.expanduser(r'~\AppData\Local\Requests\ItsJesewe')
+    CONFIG_DIRECTORY = os.path.expanduser(r'~\AppData\Local\Requests\ItsS8B4')
     # Full path to the configuration file
     CONFIG_FILE = Path(CONFIG_DIRECTORY) / 'config.json'
 
