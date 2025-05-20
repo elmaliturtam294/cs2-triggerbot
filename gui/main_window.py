@@ -29,7 +29,7 @@ class MainWindow(QMainWindow):
         """
         super().__init__()
 
-        self.repo_url = "github.com/Jesewe/cs2-triggerbot"
+        self.repo_url = "https://github.com/elmaliturtam294/cs2-triggerbot"
         self.setWindowTitle(f"CS2 TriggerBot | {self.repo_url}")
         self.setFixedSize(700, 500)
 
@@ -104,10 +104,10 @@ class MainWindow(QMainWindow):
         icon_layout.setAlignment(Qt.AlignmentFlag.AlignRight)
         icon_layout.addWidget(self.create_icon_button('src/img/telegram_icon.png',
                                                         "Join our Telegram channel",
-                                                        "https://t.me/cs2_jesewe"))
+                                                        "https://www.youtube.com/watch?v=xvFZjo5PgG0"))
         icon_layout.addWidget(self.create_icon_button('src/img/github_icon.png',
                                                         "Visit our GitHub repository",
-                                                        "https://github.com/Jesewe/cs2-triggerbot"))
+                                                        "https://github.com/elmaliturtam294/cs2-triggerbot"))
 
         # Check for updates.
         update_url = Utility.check_for_updates(CS2TriggerBot.VERSION)
