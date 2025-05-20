@@ -3,7 +3,7 @@ name: Bug Report
 about: Report a bug to help us improve.
 title: "[Bug]: "
 labels: "\U0001F41B Bug"
-assignees: s8b4
+assignees: S8B4
 
 ---
 
