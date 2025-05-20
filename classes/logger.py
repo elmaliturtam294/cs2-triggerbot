@@ -3,7 +3,7 @@ import os, logging
 class Logger:
     # Define the directory where logs will be stored.
     # Use an environment variable (%LOCALAPPDATA%) to ensure logs are stored in a user-specific location.
-    LOG_DIRECTORY = os.path.expanduser(r'~\AppData\Local\Requests\ItsJesewe\crashes')
+    LOG_DIRECTORY = os.path.expanduser(r'~\AppData\Local\Requests\ItsS8B4\crashes')
     
     # Define the full path for the log file within the LOG_DIRECTORY.
     LOG_FILE = os.path.join(LOG_DIRECTORY, 'tb_logs.log')
